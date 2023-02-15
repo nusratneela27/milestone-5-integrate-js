@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom events</title>
+</head>
+<body>
+    <h1>Dom er ajk special events</h1>
+    <button onclick="console.log(7)">click me</button>
+    <button onclick="console.log('im click')">Another button</button>
+    <br>
+
+    <!-- option 1 -->
+    <button onclick="document.body.style.backgroundColor='yellow'">Make yellow</button>
+
+    <!-- option 2 -->
+    <button onclick="makeRed()">Make Red</button>
+
+    <!-- option 3 -->
+    <button id="makeBlue">Make Blue</button>
+
+    <!-- option 4 -->
+    <button id="makePurple">Make purple</button>
+    
+    <!-- option 5 -->
+    <button id="makePink">Make Pink</button>
+
+    <!-- option 6 -->
+    <button id="makeGreen">Make Green</button>
+
+    <!-- option 7 -->
+    <button id="makeGoldenRod">Make goldenRod</button>
+    <script src="events.js"></script>
+</body>
+</html>
